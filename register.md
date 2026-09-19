@@ -40,15 +40,15 @@ permalink: /register/
           <div class="flex gap-2"><dt class="font-semibold text-cub-blue/80 min-w-24">Where:</dt><dd>Pack 147 Google Form</dd></div>
           <div class="flex gap-2"><dt class="font-semibold text-cub-blue/80 min-w-24">Done when:</dt><dd>You submit the form</dd></div>
         </dl>
-        <a href=""
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfMLvh98Jqv_rvLOL2_jI3PWTkbJfUR_f6r9ioxr9GtlHRDKQ/viewform?usp=header”
            target="_blank" rel="noopener"
            class="flex items-baseline justify-between gap-4 px-5 py-4 mt-6 transition rounded-xl bg-cub-blue ring-1 ring-cub-blue hover:bg-blue-900">
           <span class="text-xs font-semibold tracking-[0.2em] uppercase text-cub-gold/90">Open the Annual Information Form</span>
           <span class="text-cub-gold" aria-hidden="true">→</span>
         </a>
-      </article>
-
-      <!-- STEP 2 · Pack 57 dues -->
+      </
+      
+      <!-- STEP 2 · Pack 147 dues -->
       <article class="flex flex-col p-8 bg-white rounded-2xl ring-1 ring-slate-200">
         <div class="flex items-center justify-between">
           <span class="inline-flex items-center justify-center w-12 h-12 text-xl font-extrabold rounded-full bg-cub-blue text-cub-gold">2</span>
