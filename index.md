@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-navbarText: Palo Alto, CA
+navbarText: Grosse Pointe Park, MI
 ---
 
 <!-- HERO -->
@@ -18,7 +18,7 @@ navbarText: Palo Alto, CA
       Adventure Begins Here
     </h1>
     <p class="max-w-2xl mx-auto mt-4 text-lg sm:text-xl">
-      Join <span class="font-semibold">Pack 57</span> — where every child explores, belongs, and leads.
+      Join <span class="font-semibold">Pack 147</span> — where every child explores, belongs, and leads.
     </p>
     <div class="flex flex-wrap justify-center gap-4 mt-8">
       <a href="/join" class="inline-flex items-center px-6 py-3 font-bold transition bg-yellow-400 rounded-xl text-slate-900 hover:bg-yellow-300">
@@ -40,7 +40,7 @@ navbarText: Palo Alto, CA
         <a href="/assets/docs/pack57-2026-2027-overview.pdf"
            target="_blank" rel="noopener"
            class="block group py-6"
-           aria-label="Download Pack 57's 2026 to 2027 program overview as a PDF">
+           aria-label="Download Pack 147's 2026 to 2027 program overview as a PDF">
           <div class="relative max-w-[88%] mx-auto">
             <div class="absolute inset-x-0 top-0 overflow-hidden bg-white rounded-xl shadow-xl ring-1 ring-white/10 transform translate-x-6 translate-y-3 rotate-3 opacity-90">
               <img src="/assets/images/pack57-overview-preview-2-top.png"
@@ -207,7 +207,7 @@ navbarText: Palo Alto, CA
     <div>
       <h2 class="text-3xl font-extrabold tracking-wide uppercase sm:text-4xl text-cub-blue">Why Cub Scouting?</h2>
       <p class="mt-4 text-lg leading-7">
-        Scouting America welcomes every family to discover outdoor adventure, community, and character. In Pack 57,
+        Scouting America welcomes every family to discover outdoor adventure, community, and character. In Pack 147,
         kids build confidence and leadership through hands-on experiences — and have a blast doing it.
       </p>
       <ul class="mt-6 space-y-3">
@@ -218,7 +218,7 @@ navbarText: Palo Alto, CA
       </ul>
       <div class="mt-6">
         <a href="/about" class="inline-flex items-center px-5 py-3 font-semibold text-white transition rounded-lg bg-slate-900 hover:bg-slate-800">
-          Learn About Pack 57
+          Learn About Pack 147
         </a>
       </div>
     </div>
@@ -287,23 +287,23 @@ navbarText: Palo Alto, CA
       <div class="grid gap-4 mt-6">
         <div class="p-4 rounded-xl ring-1 ring-slate-200">
           <p class="font-semibold">Lions (K)</p>
-          <p class="text-sm text-slate-600">Thursdays</p>
+          <p class="text-sm text-slate-600">Wednesdays</p>
         </div>
         <div class="p-4 rounded-xl ring-1 ring-slate-200">
           <p class="font-semibold">Tigers (1)</p>
-          <p class="text-sm text-slate-600">Thursdays</p>
+          <p class="text-sm text-slate-600">Wednesdays</p>
         </div>
         <div class="p-4 rounded-xl ring-1 ring-slate-200">
           <p class="font-semibold">Wolves (2)</p>
-          <p class="text-sm text-slate-600">Thursdays</p>
+          <p class="text-sm text-slate-600">Wednesdays</p>
         </div>
         <div class="p-4 rounded-xl ring-1 ring-slate-200">
           <p class="font-semibold">Bears (3)</p>
-          <p class="text-sm text-slate-600">Thursdays</p>
+          <p class="text-sm text-slate-600">Wednesdays</p>
         </div>
         <div class="p-4 rounded-xl ring-1 ring-slate-200">
           <p class="font-semibold">Webelos & Arrows of Light (4-5)</p>
-          <p class="text-sm text-slate-600">Thursdays</p>
+          <p class="text-sm text-slate-600">Wednesdays</p>
         </div>
       </div>
       <div class="mt-6">
@@ -313,26 +313,10 @@ navbarText: Palo Alto, CA
           Ask a Question
         </a>
         <p class="mt-3 text-sm text-slate-500">
-          or email <a href="mailto:leaders@pack57paloalto.com" class="text-cub-blue underline decoration-cub-blue/30 underline-offset-2 hover:decoration-cub-blue">leaders@pack57paloalto.com</a>
+          or email <a href="mailto:gppack147@gmail.com" class="text-cub-blue underline decoration-cub-blue/30 underline-offset-2 hover:decoration-cub-blue">gppack147@gmail.com</a>
         </p>
       </div>
     </div>
-  </div>
-</section>
-
-
-<!-- TESTIMONIALS -->
-<section class="max-w-6xl px-4 py-16 mx-auto">
-  <h2 class="text-3xl font-extrabold tracking-wide text-center uppercase sm:text-4xl text-cub-blue">Families Love It</h2>
-  <div class="grid gap-6 mt-10 md:grid-cols-2">
-    <figure class="p-6 bg-white rounded-2xl ring-1 ring-slate-200">
-      <blockquote class="text-lg">“My child has grown in confidence and kindness. Pack 57 feels like family.”</blockquote>
-      <figcaption class="mt-4 text-sm text-slate-600">— Parent, J.D.</figcaption>
-    </figure>
-    <figure class="p-6 bg-white rounded-2xl ring-1 ring-slate-200">
-      <blockquote class="text-lg">“I love camping with friends and learning new skills every month!”</blockquote>
-      <figcaption class="mt-4 text-sm text-slate-600">— Scout, A.R.</figcaption>
-    </figure>
   </div>
 </section>
 
@@ -342,7 +326,7 @@ navbarText: Palo Alto, CA
   <p class="mt-3">New to Scouting? We’ll help you get started. Everyone’s welcome.</p>
   <div class="mt-6">
     <a href="/join" class="inline-flex items-center px-6 py-3 font-bold transition bg-yellow-400 rounded-xl text-cub-blue hover:bg-yellow-300">
-      Join Pack 57
+      Join Pack 147
     </a>
   </div>
 </section>
