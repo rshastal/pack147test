@@ -1,4 +1,4 @@
-# Pack 57 Leaders
+# Pack 147 Leaders
 # This data file contains information about all pack leaders
 # Format:
 #   - name: Leader's name (use first name and last initial, or just "TBD" for vacant positions)
@@ -6,43 +6,38 @@
 #     image: Path to profile image
 #     ring_color: Tailwind color for the ring around the image
 
-- name: Jake H.
-  role: Cubmaster, Den Leader (Tigers)
+- name: Kelli R
+  role: Cubmaster, Den Leader (Webolos, AOL)
   image: /assets/images/jakeh.png
   ring_color: yellow-400
 
-- name: Erin H.
+- name: Amy G
   role: Committee Chair
   image: /assets/images/erinh.png
   ring_color: slate-400
 
-- name: Lindy W.
-  role: Chartered Organization Representative, Den Leader (AOL)
-  image: /assets/images/lindyw.png
-  ring_color: slate-500
-
-- name: Annie L.
+- name: Taunya S
   role: Treasurer
   image: /assets/images/anniel.png
   ring_color: yellow-700
 
-- name: Daniel C.
+- name: Amy G
   role: Den Leader (Lions)
   image: /assets/images/lionleader.png
   ring_color: yellow-400
 
-- name: Camilla A.
-  role: Den Leader (Wolves)
+- name: Amy G
+  role: Den Leader (Tigers)
   image: /assets/images/wolfleader.png
   ring_color: slate-400
 
-- name: Fiona M.
-  role: Den Leader (Bears)
+- name: Taunya S
+  role: Den Leader (Wolves)
   image: /assets/images/bearleader.png
   ring_color: stone-800
 
-- name: Pat S.
-  role: Den Leader (Webelos)
+- name: Taunya s
+  role: Den Leader (Bears)
   image: /assets/images/webelosleader.png
   ring_color: slate-500
 
