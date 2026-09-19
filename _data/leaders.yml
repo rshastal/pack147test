@@ -7,9 +7,9 @@
 #     ring_color: Tailwind color for the ring around the image
 
 - name: Kelli R
-  role: Cubmaster, Den Leader (Webolos, AOL)
-  image: /assets/images/jakeh.png
-  ring_color: yellow-400
+  role: Cub Master, Den Leader (Webolos, AOL)
+  image:
+  ring_color: slate-400
 
 - name: Amy G
   role: Committee Chair
@@ -19,27 +19,37 @@
 - name: Taunya S
   role: Treasurer
   image: /assets/images/anniel.png
-  ring_color: yellow-700
+  ring_color: slate-400
 
+- name: Taunya S
+  role: Fundraising
+  image:
+  img_color: slate-400
+
+- name: TBD
+  role: Activity Chair
+  image:
+  ring_color: slate-400
+  
 - name: Amy G
   role: Den Leader (Lions)
   image: /assets/images/lionleader.png
-  ring_color: yellow-400
+  ring_color: yellow-700
 
 - name: Amy G
   role: Den Leader (Tigers)
   image: /assets/images/wolfleader.png
-  ring_color: slate-400
+  ring_color: yellow-700
 
 - name: Taunya S
   role: Den Leader (Wolves)
   image: /assets/images/bearleader.png
-  ring_color: stone-800
+  ring_color: yellow-700
 
 - name: Taunya s
   role: Den Leader (Bears)
   image: /assets/images/webelosleader.png
-  ring_color: slate-500
+  ring_color: yellow-700
 
 - name: You?
   role: ""
