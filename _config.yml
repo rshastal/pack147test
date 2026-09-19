@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Pack 57
-email: webmaster@pack57paloalto.com
-cubmaster_email: cubmaster@pack57paloalto.com
+title: Pack 147
+email: gppack147@gmail.com
+cubmaster_email: gppack147@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Cub Scout Pack 57 of Palo Alto, California. We provide fun, character-building adventures
+  Cub Scout Pack 147 of Grosse Pointe Park, Michigan. We provide fun, character-building adventures
   for K-5th grade youth through outdoor activities, STEM projects, and community service.
   Join us for camping, Pinewood Derby races, and much more!
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -36,48 +36,13 @@ plugins:
 gcalendar:
   key_file: ./gcalendar-key.json
   calendars:
-    - name: 🐾 Pack 57
+    - name: 🐾 Pack 147
       id: c_dbd8c6d9e13e75097d2a4bb1e980c580cc9f07d2407f004db14eb0cfe5037bae@group.calendar.google.com
       directory: events
       layout: event-public
       date_format: "%Y-%m-%d"
       look_ahead: 365
-    - name: 🦁 Lion Den
-      id: c_23bf39238bebf6e1676802f8aed5c2f2e31fb28ec8c9428d08f2a3cf653fba91@group.calendar.google.com
-      directory: events
-      layout: event-private
-      date_format: "%Y-%m-%d"
-      look_ahead: 365
-    - name: 🐯 Tiger Den
-      id: c_87e6640306451b91fd0e46b0611cc26768b64a586815bba5b5d956c60bbd544b@group.calendar.google.com
-      directory: events
-      layout: event-private
-      date_format: "%Y-%m-%d"
-      look_ahead: 365
-    - name: 🐺 Wolf Den
-      id: c_14f61c66ad0267f311c1ade24dd6d365960f801dd6b9bf55943bade450015fed@group.calendar.google.com
-      directory: events
-      layout: event-private
-      date_format: "%Y-%m-%d"
-      look_ahead: 365
-    - name: 🐻 Bear Den
-      id: c_914f7f15618f89b7095afab3acc7d1faca4277828d63c7c5d07d780a6ff9097e@group.calendar.google.com
-      directory: events
-      layout: event-private
-      date_format: "%Y-%m-%d"
-      look_ahead: 365
-    - name: ⚜️ Webelos Den
-      id: c_14dddfe86bf386af69d9cf03b888462ed7afd7be37ae0620a76b44171e7e091b@group.calendar.google.com
-      directory: events
-      layout: event-private
-      date_format: "%Y-%m-%d"
-      look_ahead: 365
-    - name: 🏹 AoL Den
-      id: c_a232daa2e44b80eb4e2b86787c7d06b3b833d3a1f2d514faf4e3eccf71e9012f@group.calendar.google.com
-      directory: events
-      layout: event-private
-      date_format: "%Y-%m-%d"
-      look_ahead: 365
+
 
 
 # Exclude from processing.
