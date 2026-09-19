@@ -12,7 +12,7 @@ permalink: /register/
       <h1 class="mt-0 mb-3 text-4xl font-extrabold tracking-tight text-cub-blue sm:text-5xl">
         You're in.
       </h1>
-      <p class="text-xs font-semibold tracking-[0.3em] uppercase text-cub-blue/60">Pack 57 · 2026 — 27</p>
+      <p class="text-xs font-semibold tracking-[0.3em] uppercase text-cub-blue/60">Pack 147 · 2026 — 27</p>
       <p class="mt-10 text-base text-slate-600 max-w-xl mx-auto">
         Four short steps to make it official.
       </p>
@@ -37,10 +37,10 @@ permalink: /register/
           The form also walks you through the two dues payments below, so start here and it will tell you what's left.
         </p>
         <dl class="mt-5 text-sm text-slate-500 space-y-1">
-          <div class="flex gap-2"><dt class="font-semibold text-cub-blue/80 min-w-24">Where:</dt><dd>Pack 57 Google Form</dd></div>
+          <div class="flex gap-2"><dt class="font-semibold text-cub-blue/80 min-w-24">Where:</dt><dd>Pack 147 Google Form</dd></div>
           <div class="flex gap-2"><dt class="font-semibold text-cub-blue/80 min-w-24">Done when:</dt><dd>You submit the form</dd></div>
         </dl>
-        <a href="https://forms.gle/3BpSYft6z8dir7s16"
+        <a href=""
            target="_blank" rel="noopener"
            class="flex items-baseline justify-between gap-4 px-5 py-4 mt-6 transition rounded-xl bg-cub-blue ring-1 ring-cub-blue hover:bg-blue-900">
           <span class="text-xs font-semibold tracking-[0.2em] uppercase text-cub-gold/90">Open the Annual Information Form</span>
@@ -55,7 +55,7 @@ permalink: /register/
           <span class="text-xs font-semibold tracking-[0.2em] uppercase text-cub-blue/60">~5 minutes</span>
         </div>
         <h3 class="mt-5 mb-0 text-xl font-bold tracking-[0.1em] uppercase text-cub-blue">
-          Pay Pack 57 dues
+          Pay Pack 147 Dues
         </h3>
         <p class="mt-3 text-slate-600">
           $170 covers awards, the handbook, recognition items, craft supplies, meeting space, and special events.
