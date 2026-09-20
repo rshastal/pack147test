@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Pack 57 Calendar
+title: Pack 147 Calendar
 permalink: /calendar/
-navbarText: Palo Alto, CA
+navbarText: Grosse Pointe Park, Mi
 hideTitle: true
 ---
 
