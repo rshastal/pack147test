@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Contact Pack 57
+title: Contact Pack 147
 ---
 
-Please email `cubmaster@pack57paloalto.com` with any questions.
+Please email `gpack147@gmail.com` with any questions.
