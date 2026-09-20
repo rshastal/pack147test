@@ -7,7 +7,7 @@ permalink: /about/
     <div>
         <h2 class="text-2xl font-bold text-cub-blue">Why We Exist</h2>
         <p class="mt-4 text-lg leading-7">
-            Pack 57 exists to build character in young people. In a world of screens and structured activities, Cub
+            Pack 147 exists to build character in young people. In a world of screens and structured activities, Cub
             Scouting offers something different: authentic adventures where children discover their capabilities,
             connect with nature, and develop the values that shape good citizens and future leaders.
         </p>
@@ -57,15 +57,8 @@ permalink: /about/
         </div>
         </div>
     <div>
-    <p>
-      Pack 57 is self-chartered, and that means we maintain our own charter directly with
-      Scouting America. Our independence is important because it gives us full control over
-      our program, activities, and direction. We welcome families from all backgrounds
-      without religious or institutional requirements. Our leadership and decision-making
-      comes directly from our parent volunteers.
-    </p>
     <p class="mt-4">
-      Pack 57 truly belongs to our families and our community, creating an inclusive
+      Pack 147 truly belongs to our families and our community, creating an inclusive
       environment where all children can experience the benefits of scouting.
     </p>
     </div>
@@ -223,7 +216,7 @@ permalink: /about/
 <div class="px-16 py-4 pt-8 mt-16 bg-white">
     <h2 class="text-2xl font-bold text-cub-blue">Join Our Adventure</h2>
     <p class="mt-4 text-lg leading-7">
-        Pack 57 welcomes all children in kindergarten through fifth grade. Our volunteer-led program provides
+        Pack 147 welcomes all children in kindergarten through fifth grade. Our volunteer-led program provides
         age-appropriate activities that build character, foster citizenship, and develop physical and mental fitness—all
         while having fun and making memories that last a lifetime.
     </p>
