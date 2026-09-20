@@ -6,7 +6,7 @@ Parameters:
 
 ## Meet the Leaders
 
-Pack 57 is run by parents — every leader below is also a Pack 57 family.
+Pack 147 is run by parents — every leader below is also a Pack 147 family.
 
 <div class="grid gap-6 mt-6 sm:grid-cols-2" markdown="0">
 
