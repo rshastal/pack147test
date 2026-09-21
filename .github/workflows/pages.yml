@@ -26,7 +26,12 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.4.5"
-          bundler-cache: true
+          bundler-cache: false
+
+        - name: Install dependencies
+        run: |
+          bundle config set frozen false
+          bundle install
 
       - name: Build Jekyll site
         env:
