@@ -24,7 +24,7 @@ navbarText: Grosse Pointe Park, MI
       <a href="/join" class="inline-flex items-center px-6 py-3 font-bold transition bg-yellow-400 rounded-xl text-slate-900 hover:bg-yellow-300">
         Join Now
       </a>
-      <a href="/calendar" class="inline-flex items-center px-6 py-3 font-semibold text-black transition rounded-xl bg-white/90 ring-1 ring-white/40 hover:bg-white/100">
+      <a href="{{‘/calendar/‘|relative_url}}”> class="inline-flex items-center px-6 py-3 font-semibold text-black transition rounded-xl bg-white/90 ring-1 ring-white/40 hover:bg-white/100">
         Upcoming Events
       </a>
     </div>
@@ -184,7 +184,7 @@ navbarText: Grosse Pointe Park, MI
               {{ additional_events }}
             </ul>
           </div>
-          <a href="/events/" class="inline-flex mt-3 font-semibold text-slate-900 hover:underline">See All Events</a>
+          <a href="{{ ‘/events/’ | relative_url }}”> class="inline-flex mt-3 font-semibold text-slate-900 hover:underline">See All Events</a>
         </article>
       {%- endif -%}
     </div>
