@@ -24,14 +24,14 @@ permalink: /about/
     </div>
 
     <div>
-        <img src="/assets/images/scout-me-in.jpg" alt="Pack 57 Scouts hiking together"
+        <img src="/assets/images/scout-me-in.jpg" alt="Pack 147 Scouts hiking together"
             class="object-cover w-full h-80 rounded-xl" loading="lazy" decoding="async">
     </div>
 </div>
 
 <div class="max-w-4xl px-8 py-10 mx-auto mt-12 text-white shadow-lg rounded-3xl bg-scout-blue">
   <h2 class="m-0 text-3xl font-extrabold tracking-tight text-center text-cub-gold">
-    Why Pack 57
+    Why Pack 147
   </h2>
 
   <div class="mt-6 space-y-4 text-base leading-7 md:text-lg md:leading-8">
@@ -68,7 +68,7 @@ permalink: /about/
       <div class="flex">
         <a href="/join"
             class="px-6 py-3 mx-auto mt-5 font-bold transition bg-yellow-400 rounded-xl text-cub-blue hover:bg-yellow-300">
-            Join Pack 57
+            Join Pack 147
         </a>
     </div>
 </div>
@@ -223,7 +223,7 @@ permalink: /about/
     <div class="mt-6">
         <a href="/join"
             class="inline-flex items-center px-6 py-3 font-bold transition bg-yellow-400 rounded-xl text-cub-blue hover:bg-yellow-300">
-            Join Pack 57
+            Join Pack 147
         </a>
         <a href="/contact"
             class="inline-flex items-center px-6 py-3 ml-4 font-bold text-white transition rounded-xl bg-slate-900 hover:bg-slate-800">
