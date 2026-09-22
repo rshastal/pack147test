@@ -278,60 +278,90 @@ title: Cub Scout Pack 147
 </section>
 
 <!-- LEADERS + DEN FINDER -->
-<!-- YEAR AT A GLANCE -->
-<section class="px-4 py-14 bg-slate-50 sm:px-6 sm:py-16 lg:px-8">
-  <div class="max-w-6xl mx-auto overflow-hidden shadow-sm rounded-3xl bg-cub-blue">
-    <div class="grid items-center gap-10 px-6 py-10 sm:px-10 sm:py-14 lg:grid-cols-[1.1fr_1fr] lg:gap-14 lg:px-14">
+<section class="bg-slate-50">
+  <div class="grid max-w-6xl gap-12 px-4 py-16 mx-auto lg:grid-cols-2 sm:py-20">
 
-      <!-- Coming Soon Preview -->
-      <div class="order-2 lg:order-1">
-        <div class="relative max-w-[88%] mx-auto py-5">
-          <div class="flex min-h-[280px] items-center justify-center overflow-hidden bg-white rounded-xl shadow-2xl">
-            <div class="px-8 py-10 text-center">
-              <p class="m-0 text-sm font-bold tracking-[0.2em] uppercase text-cub-blue/60">
-                Pack 147
-              </p>
-
-              <h3 class="mt-4 mb-0 text-3xl font-extrabold tracking-tight text-cub-blue">
-                2026–27 Program Overview
-              </h3>
-
-              <div class="inline-flex items-center px-5 py-2 mt-6 text-sm font-bold tracking-wider uppercase bg-cub-gold rounded-full text-cub-blue">
-                Coming Soon
-              </div>
-
-              <p class="max-w-md mx-auto mt-6 mb-0 leading-7 text-slate-600">
-                Our complete schedule of meetings, adventures, activities and special events will be available here soon.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Copy -->
-      <div class="order-1 lg:order-2">
-        <p class="mb-3 text-sm font-bold tracking-[0.22em] uppercase text-white/70">
-          The year ahead
-        </p>
-
-        <h2 class="m-0 text-4xl font-extrabold tracking-[0.05em] uppercase text-cub-gold sm:text-5xl">
-          2026–27 at a glance
-        </h2>
-
-        <p class="max-w-xl mt-5 text-lg leading-relaxed text-blue-50">
-          Pack 147 has a full year of meetings, activities and adventures ahead.
-          We're putting the finishing touches on our complete 2026–27 program overview.
-        </p>
-
-        <div class="inline-flex items-center justify-center px-6 py-3 mt-7 font-bold text-white rounded-xl bg-white/10 ring-1 ring-white/20">
-          Program Overview · Coming Soon
-        </div>
-      </div>
-
+    <!-- LEADERS -->
+    <div>
+      {% include leaders.md %}
     </div>
+
+    <!-- DEN FINDER -->
+    <div>
+      <p class="mb-2 text-sm font-bold tracking-[0.2em] uppercase text-cub-blue/60">
+        Find your place
+      </p>
+
+      <h2 class="m-0 text-4xl font-extrabold text-cub-blue">
+        Find Your Den
+      </h2>
+
+      <p class="mt-4 text-lg leading-8 text-slate-700">
+        Cub Scouts are grouped into dens by grade. Find your Scout's grade below to see where they'll start.
+      </p>
+
+      <div class="mt-7 overflow-hidden bg-white shadow-sm rounded-2xl ring-1 ring-slate-200">
+
+        <div class="flex items-center justify-between gap-4 px-5 py-4 border-b border-slate-200">
+          <div>
+            <p class="m-0 font-bold text-slate-900">Kindergarten</p>
+            <p class="mt-1 mb-0 text-sm text-slate-600">Lion Den</p>
+          </div>
+          <span class="text-sm font-bold text-cub-blue">Wednesday</span>
+        </div>
+
+        <div class="flex items-center justify-between gap-4 px-5 py-4 border-b border-slate-200">
+          <div>
+            <p class="m-0 font-bold text-slate-900">1st Grade</p>
+            <p class="mt-1 mb-0 text-sm text-slate-600">Tiger Den</p>
+          </div>
+          <span class="text-sm font-bold text-cub-blue">Wednesday</span>
+        </div>
+
+        <div class="flex items-center justify-between gap-4 px-5 py-4 border-b border-slate-200">
+          <div>
+            <p class="m-0 font-bold text-slate-900">2nd Grade</p>
+            <p class="mt-1 mb-0 text-sm text-slate-600">Wolf Den</p>
+          </div>
+          <span class="text-sm font-bold text-cub-blue">Wednesday</span>
+        </div>
+
+        <div class="flex items-center justify-between gap-4 px-5 py-4 border-b border-slate-200">
+          <div>
+            <p class="m-0 font-bold text-slate-900">3rd Grade</p>
+            <p class="mt-1 mb-0 text-sm text-slate-600">Bear Den</p>
+          </div>
+          <span class="text-sm font-bold text-cub-blue">Wednesday</span>
+        </div>
+
+        <div class="flex items-center justify-between gap-4 px-5 py-4 border-b border-slate-200">
+          <div>
+            <p class="m-0 font-bold text-slate-900">4th Grade</p>
+            <p class="mt-1 mb-0 text-sm text-slate-600">Webelos Den</p>
+          </div>
+          <span class="text-sm font-bold text-cub-blue">Wednesday</span>
+        </div>
+
+        <div class="flex items-center justify-between gap-4 px-5 py-4">
+          <div>
+            <p class="m-0 font-bold text-slate-900">5th Grade</p>
+            <p class="mt-1 mb-0 text-sm text-slate-600">Arrow of Light Den</p>
+          </div>
+          <span class="text-sm font-bold text-cub-blue">Wednesday</span>
+        </div>
+
+      </div>
+
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSeOEj-jI40fscwo9memaMbL9ConldTthiJvY-vEp3hdWp7MAQ/viewform"
+         target="_blank"
+         rel="noopener"
+         class="inline-flex items-center justify-center px-5 py-3 mt-7 font-bold text-white transition rounded-xl bg-cub-blue hover:opacity-90">
+        Ask a Question
+      </a>
+    </div>
+
   </div>
 </section>
-
 <section class="bg-cub-gold">
 <div class="grid items-center max-w-6xl gap-8 px-4 py-14 mx-auto lg:grid-cols-[1fr_auto] sm:py-16">
 <div>
