@@ -2,61 +2,93 @@
 layout: default
 title: Pack 147 Calendar
 permalink: /calendar/
-navbarText: Grosse Pointe Park, Mi
+navbarText: Grosse Pointe Park, MI
 hideTitle: true
 ---
 
-<section class="mx-auto max-w-6xl px-4 py-10">
-  <div class="flex items-baseline justify-between flex-wrap gap-2">
-    <h2 class="text-2xl md:text-3xl font-extrabold tracking-wide uppercase text-cub-blue">Calendar</h2>
-    <div class="text-sm text-slate-600 flex items-center gap-4">
-      <span class="inline-flex items-center gap-1.5">
-        <span class="inline-block w-3 h-3 rounded-sm" style="background:#1e3a8a"></span>
-        Pack-wide
-      </span>
-      <span class="inline-flex items-center gap-1.5">
-        <span class="inline-block w-3 h-3 rounded-sm" style="background:#ca8a04"></span>
-        Den / Members
-      </span>
-    </div>
+<!-- CALENDAR HERO -->
+<section class="px-4 pt-8 sm:px-6 lg:px-8">
+  <div class="max-w-6xl px-6 py-10 mx-auto overflow-hidden rounded-3xl bg-cub-blue sm:px-10 sm:py-12">
+    <p class="mb-2 text-sm font-bold tracking-[0.22em] uppercase text-white/70">
+      Cub Scout Pack 147 · Grosse Pointe Park
+    </p>
+
+    <h1 class="m-0 text-4xl font-extrabold tracking-tight text-cub-gold sm:text-5xl">
+      Pack Calendar
+    </h1>
+
+    <p class="max-w-2xl mt-5 mb-0 text-lg leading-8 text-blue-50">
+      Keep up with Pack 147 meetings, activities, adventures and special events.
+      Check back here anytime for the latest schedule.
+    </p>
   </div>
+</section>
 
-  {% include calendar-widget.html %}
+<!-- GOOGLE CALENDAR -->
+<section class="px-4 py-10 sm:px-6 lg:px-8">
+  <div class="max-w-6xl mx-auto">
 
-  <div class="mt-8">
-    <h3 class="text-lg font-bold tracking-wide uppercase text-slate-700">Subscribe in Google Calendar</h3>
-    <p class="mt-2 text-sm text-slate-600">Open any calendar in Google Calendar to subscribe and get updates on your phone.</p>
+    <div class="flex flex-col gap-4 mb-6 sm:flex-row sm:items-end sm:justify-between">
+      <div>
+        <p class="mb-2 text-sm font-bold tracking-[0.2em] uppercase text-cub-blue/60">
+          What's happening
+        </p>
 
-    <p class="mt-4 text-xs font-semibold uppercase tracking-wide text-slate-500">Pack-wide</p>
-    <div class="mt-2 flex flex-wrap gap-2">
-      {% for cal in site.gcalendar.calendars %}
-        {% if cal.name and cal.layout == 'event-public' %}
-        <a href="https://calendar.google.com/calendar/render?cid={{ cal.id | url_encode }}"
-           target="_blank" rel="noopener noreferrer"
-           class="inline-flex items-center rounded-lg px-3 py-2 text-sm font-medium ring-1 ring-slate-300 bg-white hover:bg-slate-50">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-          </svg>
-          {{ cal.name }}
-        </a>
-        {% endif %}
-      {% endfor %}
+        <h2 class="m-0 text-3xl font-extrabold text-cub-blue">
+          Upcoming Pack 147 Events
+        </h2>
+      </div>
+
+      <a href="https://calendar.google.com/calendar/render?cid=7qar7h37q33ng9iuto1n4vkejm9n9tau%40import.calendar.google.com"
+         target="_blank"
+         rel="noopener noreferrer"
+         class="inline-flex items-center justify-center px-5 py-3 font-bold transition rounded-xl bg-cub-gold text-cub-blue hover:bg-yellow-300">
+        Open in Google Calendar
+      </a>
     </div>
 
-    <p class="mt-5 text-xs font-semibold uppercase tracking-wide text-slate-500">Dens (members only)</p>
-    <div class="mt-2 flex flex-wrap gap-2">
-      {% for cal in site.gcalendar.calendars %}
-        {% if cal.name and cal.layout == 'event-private' %}
-        <a href="https://calendar.google.com/calendar/render?cid={{ cal.id | url_encode }}"
-           target="_blank" rel="noopener noreferrer"
-           class="inline-flex items-center rounded-lg px-3 py-2 text-sm font-medium ring-1 ring-slate-300 bg-white hover:bg-slate-50">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-          </svg>
-          {{ cal.name }}
-        </a>
-        {% endif %}
-      {% endfor %}
+    <div class="overflow-hidden bg-white shadow-sm rounded-2xl ring-1 ring-slate-200">
+      <div class="relative w-full" style="padding-bottom: 75%;">
+        <iframe
+          src="https://calendar.google.com/calendar/embed?src=7qar7h37q33ng9iuto1n4vkejm9n9tau%40import.calendar.google.com&ctz=America%2FDetroit"
+          class="absolute inset-0 w-full h-full"
+          style="border:0"
+          frameborder="0"
+          scrolling="no"
+          loading="lazy"
+          title="Pack 147 Google Calendar">
+        </iframe>
+      </div>
     </div>
+
+    <div class="p-5 mt-6 rounded-2xl bg-slate-50 ring-1 ring-slate-200">
+      <p class="m-0 text-sm leading-6 text-slate-600">
+        <strong class="text-slate-800">Schedule changes happen.</strong>
+        This calendar is maintained by Pack 147 and is the best place to check for current meeting and event information.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- QUESTIONS -->
+<section class="px-4 pb-12 sm:px-6 lg:px-8">
+  <div class="flex flex-col max-w-6xl gap-6 p-8 mx-auto sm:flex-row sm:items-center sm:justify-between rounded-2xl bg-cub-gold">
+
+    <div>
+      <h2 class="m-0 text-2xl font-extrabold text-cub-blue">
+        Have a question about an event?
+      </h2>
+
+      <p class="mt-2 mb-0 text-cub-blue/80">
+        Reach out to Pack 147 and we'll help you find what you need.
+      </p>
+    </div>
+
+    <a href="mailto:gppack147@gmail.com"
+       class="inline-flex items-center justify-center px-6 py-3 font-bold text-white transition rounded-xl bg-cub-blue hover:opacity-90">
+      Contact Pack 147
+    </a>
+
   </div>
 </section>
