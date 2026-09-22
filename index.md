@@ -26,7 +26,7 @@ title: Cub Scout Pack 147
         A place for kids to explore, build confidence, make friends, and discover what they can do.
       </p>
       <div class="flex flex-wrap gap-3 mt-8">
-        <a href="{{ '/join/' | relative_url }}"
+        <a href="{{ '/register/' | relative_url }}"
            class="inline-flex items-center justify-center px-6 py-3 font-bold transition rounded-xl bg-cub-gold text-cub-blue hover:bg-yellow-300">
           Join Pack 147
         </a>
@@ -352,12 +352,12 @@ title: Cub Scout Pack 147
 
       </div>
 
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSeOEj-jI40fscwo9memaMbL9ConldTthiJvY-vEp3hdWp7MAQ/viewform"
-         target="_blank"
-         rel="noopener"
-         class="inline-flex items-center justify-center px-5 py-3 mt-7 font-bold text-white transition rounded-xl bg-cub-blue hover:opacity-90">
-        Ask a Question
-      </a>
+     <a href="https://forms.gle/EbeyAuBkKJhHze487"
+   target="_blank"
+   rel="noopener"
+   class="inline-flex items-center justify-center px-5 py-3 mt-7 font-bold text-white transition rounded-xl bg-cub-blue hover:opacity-90">
+  Ask a Question
+</a>
     </div>
 
   </div>
@@ -372,7 +372,7 @@ New to Scouting? We'll help your family find the right den and get started.
 </p>
 </div>
 
-<a href="{{ '/join/' | relative_url }}"
+<a href="{{ '/register/' | relative_url }}"
 class="inline-flex items-center justify-center px-7 py-4 font-extrabold text-white transition rounded-xl bg-cub-blue hover:opacity-90">
 Join Pack 147
 </a>
