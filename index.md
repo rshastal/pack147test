@@ -41,32 +41,26 @@ title: Cub Scout Pack 147
 
 <!-- YEAR AT A GLANCE -->
 <!-- YEAR AT A GLANCE -->
+<!-- YEAR AT A GLANCE -->
 <section class="px-4 py-14 bg-slate-50 sm:px-6 sm:py-16 lg:px-8">
   <div class="max-w-6xl mx-auto overflow-hidden shadow-sm rounded-3xl bg-cub-blue">
     <div class="grid items-center gap-10 px-6 py-10 sm:px-10 sm:py-14 lg:grid-cols-[1.1fr_1fr] lg:gap-14 lg:px-14">
 
-      <!-- Coming Soon Preview -->
+      <!-- Program Overview Preview -->
       <div class="order-2 lg:order-1">
-        <div class="relative max-w-[88%] mx-auto py-5">
-          <div class="flex min-h-[280px] items-center justify-center overflow-hidden bg-white rounded-xl shadow-2xl">
-            <div class="px-8 py-10 text-center">
-              <p class="m-0 text-sm font-bold tracking-[0.2em] uppercase text-cub-blue/60">
-                Pack 147
-              </p>
+        <div class="relative max-w-[95%] mx-auto py-5">
+          <a href="{{ '/assets/docs/pack147-2026-2027-year-at-a-glance.pdf' | relative_url }}"
+             target="_blank"
+             rel="noopener"
+             class="block overflow-hidden transition bg-white rounded-xl shadow-2xl hover:scale-[1.01]">
 
-              <h3 class="mt-4 mb-0 text-3xl font-extrabold tracking-tight text-cub-blue">
-                2026–27 Program Overview
-              </h3>
+            <img
+              src="{{ '/assets/images/pack147-year-at-a-glance.png' | relative_url }}"
+              alt="Pack 147 2026–27 Year at a Glance"
+              class="block w-full h-auto"
+              loading="lazy">
 
-              <div class="inline-flex items-center px-5 py-2 mt-6 text-sm font-bold tracking-wider uppercase bg-cub-gold rounded-full text-cub-blue">
-                Coming Soon
-              </div>
-
-              <p class="max-w-md mx-auto mt-6 mb-0 leading-7 text-slate-600">
-                Our complete schedule of meetings, adventures, activities and special events will be available here soon.
-              </p>
-            </div>
-          </div>
+          </a>
         </div>
       </div>
 
@@ -81,13 +75,20 @@ title: Cub Scout Pack 147
         </h2>
 
         <p class="max-w-xl mt-5 text-lg leading-relaxed text-blue-50">
-          Pack 147 has a full year of meetings, activities and adventures ahead.
-          We're putting the finishing touches on our complete 2026–27 program overview.
+          From Pack and Den meetings to campouts, Pinewood Derby, Blue &amp; Gold,
+          outdoor adventures and more, see what's ahead for Pack 147 this year.
         </p>
 
-        <div class="inline-flex items-center justify-center px-6 py-3 mt-7 font-bold text-white rounded-xl bg-white/10 ring-1 ring-white/20">
-          Program Overview · Coming Soon
-        </div>
+        <a href="{{ '/assets/docs/pack147-2026-2027-year-at-a-glance.pdf' | relative_url }}"
+           target="_blank"
+           rel="noopener"
+           class="inline-flex items-center justify-center px-6 py-3 mt-7 font-bold transition rounded-xl bg-cub-gold text-cub-blue hover:bg-yellow-300">
+          View the Program Overview
+        </a>
+
+        <p class="mt-3 mb-0 text-sm text-blue-100/80">
+          Click the preview or button to view the full-size schedule.
+        </p>
       </div>
 
     </div>
