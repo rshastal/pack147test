@@ -4,54 +4,50 @@ title: Join Pack 147
 hideTitle: true
 ---
 
-<!-- HERO: Half-fanned pair preview + download -->
+<!-- HERO: Pack 147 Program Overview Coming Soon -->
 <section class="px-4 mt-6 sm:px-6 lg:px-8">
   <div class="max-w-6xl mx-auto overflow-hidden rounded-3xl bg-cub-blue">
     <div class="grid items-center gap-10 px-6 py-10 sm:px-10 sm:py-14 lg:grid-cols-[1.15fr_1fr] lg:gap-14 lg:px-14">
 
-      <!-- Visual: half-fanned pair -->
+      <!-- Visual -->
       <div class="order-2 lg:order-1">
-        <a href="/assets/docs/pack57-2026-2027-overview.pdf"
-           target="_blank" rel="noopener"
-           class="block group py-6"
-           aria-label="Download Pack 57's 2026 to 2027 program overview as a PDF">
-          <div class="relative max-w-[88%] mx-auto">
-            <div class="absolute inset-x-0 top-0 overflow-hidden bg-white rounded-xl shadow-xl ring-1 ring-white/10 transform translate-x-6 translate-y-3 rotate-3 opacity-90">
-              <img src="/assets/images/pack57-overview-preview-2-top.png"
-                   alt="Top of page 2 of the program overview"
-                   class="w-full h-auto" />
-              <div class="px-4 py-2 text-[10px] tracking-[0.2em] uppercase text-cub-blue/60 border-t border-slate-200">
-                Page 2
+        <div class="relative max-w-[88%] mx-auto py-6">
+          <div class="relative flex min-h-[300px] items-center justify-center overflow-hidden bg-white rounded-xl shadow-2xl ring-1 ring-white/10">
+            <div class="px-8 py-12 text-center">
+              <div class="text-sm font-bold tracking-[0.2em] uppercase text-cub-blue/60">
+                Pack 147
               </div>
-            </div>
-            <div class="relative overflow-hidden bg-white rounded-xl shadow-2xl ring-1 ring-white/10 transform -rotate-2 transition-transform group-hover:-translate-y-1">
-              <img src="/assets/images/pack57-overview-preview-1-top.png"
-                   alt="Top of page 1 of the program overview"
-                   class="w-full h-auto" />
-              <div class="px-4 py-2 text-[10px] tracking-[0.2em] uppercase text-cub-blue/70 border-t border-slate-200 flex items-center justify-between">
-                <span>Preview · click to read full overview</span>
-                <span aria-hidden="true">↓</span>
+
+              <div class="mt-4 text-3xl font-extrabold tracking-tight text-cub-blue sm:text-4xl">
+                2026–27 Program Overview
               </div>
+
+              <div class="inline-flex items-center px-5 py-2 mt-6 text-sm font-bold tracking-wider uppercase bg-yellow-400 rounded-full text-cub-blue">
+                Coming Soon
+              </div>
+
+              <p class="max-w-md mx-auto mt-6 leading-7 text-slate-600">
+                We're putting the finishing touches on our schedule of meetings,
+                adventures, activities, and special events for the year.
+              </p>
             </div>
           </div>
-        </a>
+        </div>
       </div>
 
-      <!-- Copy + download CTA -->
+      <!-- Copy -->
       <div class="order-1 lg:order-2">
         <h1 class="mt-0 mb-0 text-4xl font-extrabold tracking-[0.08em] uppercase text-cub-gold sm:text-5xl">
           Our year, at a glance.
         </h1>
 
-        <div class="mt-8">
-          <a href="/assets/docs/pack57-2026-2027-overview.pdf"
-           target="_blank" rel="noopener"
-             class="inline-flex items-center justify-center gap-2 px-7 py-4 font-bold transition bg-cub-gold rounded-xl text-cub-blue hover:bg-yellow-300">
-            <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path fill-rule="evenodd" d="M10 3a1 1 0 011 1v8.586l2.293-2.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L9 12.586V4a1 1 0 011-1zM4 16a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1z" clip-rule="evenodd" />
-            </svg>
-            Download the 2026–27 overview
-          </a>
+        <p class="mt-6 text-lg leading-8 text-white/90">
+          Pack 147 has a full year of activities and adventures planned.
+          Our complete 2026–27 program overview will be available here soon.
+        </p>
+
+        <div class="inline-flex items-center px-6 py-3 mt-8 font-bold bg-white/10 rounded-xl text-white ring-1 ring-white/20">
+          Pack 147 Schedule · Coming Soon
         </div>
       </div>
 
@@ -66,10 +62,10 @@ hideTitle: true
     <a href="/register"
        class="group block p-8 transition rounded-2xl bg-cub-gold ring-1 ring-cub-gold hover:bg-yellow-300">
       <h2 class="mt-0 mb-0 text-2xl font-extrabold tracking-tight text-cub-blue sm:text-3xl">
-        Sign up for Pack 57
+        Sign up for Pack 147
       </h2>
       <p class="mt-3 text-cub-blue/90">
-        Four short steps to register your scout for the year. We'll walk you through each one.
+        Four short steps to register your Scout for the year. We'll walk you through each one.
       </p>
       <span class="inline-flex items-center gap-1 mt-6 font-bold text-cub-blue">
         See the steps
@@ -84,7 +80,7 @@ hideTitle: true
         Contact us to learn more
       </h2>
       <p class="mt-3 text-slate-600">
-        Talk to a parent leader, ask anything, or arrange to visit a meeting first — no commitment.
+        Talk to a parent leader, ask questions, or arrange to visit a meeting first — no commitment.
       </p>
       <span class="inline-flex items-center gap-1 mt-6 font-bold text-cub-blue">
         Get in touch
