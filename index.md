@@ -40,47 +40,56 @@ title: Cub Scout Pack 147
 </section>
 
 <!-- YEAR AT A GLANCE -->
+<!-- YEAR AT A GLANCE -->
 <section class="px-4 py-14 bg-slate-50 sm:px-6 sm:py-16 lg:px-8">
   <div class="max-w-6xl mx-auto overflow-hidden shadow-sm rounded-3xl bg-cub-blue">
     <div class="grid items-center gap-10 px-6 py-10 sm:px-10 sm:py-14 lg:grid-cols-[1.1fr_1fr] lg:gap-14 lg:px-14">
+
+      <!-- Coming Soon Preview -->
       <div class="order-2 lg:order-1">
-        <a href="{{ '/assets/docs/pack57-2026-2027-overview.pdf' | relative_url }}"
-           target="_blank" rel="noopener"
-           class="block py-5 group"
-           aria-label="Open Pack 147's 2026 to 2027 program overview">
-          <div class="relative max-w-[88%] mx-auto">
-            <div class="absolute inset-x-0 top-0 overflow-hidden bg-white rounded-xl shadow-lg transform translate-x-6 translate-y-3 rotate-3 opacity-90">
-              <img src="{{ '/assets/images/pack57-overview-preview-2-top.png' | relative_url }}"
-                   alt="Page 2 preview of Pack 147's annual program overview"
-                   class="w-full h-auto">
-            </div>
-            <div class="relative overflow-hidden transition-transform transform bg-white shadow-2xl rounded-xl -rotate-2 group-hover:-translate-y-1">
-              <img src="{{ '/assets/images/pack57-overview-preview-1-top.png' | relative_url }}"
-                   alt="Page 1 preview of Pack 147's annual program overview"
-                   class="w-full h-auto">
-              <div class="flex items-center justify-between px-4 py-2 text-[10px] tracking-[0.18em] uppercase text-cub-blue/70 border-t border-slate-200">
-                <span>Pack 147 program preview</span>
-                <span>View full overview</span>
+        <div class="relative max-w-[88%] mx-auto py-5">
+          <div class="flex min-h-[280px] items-center justify-center overflow-hidden bg-white rounded-xl shadow-2xl">
+            <div class="px-8 py-10 text-center">
+              <p class="m-0 text-sm font-bold tracking-[0.2em] uppercase text-cub-blue/60">
+                Pack 147
+              </p>
+
+              <h3 class="mt-4 mb-0 text-3xl font-extrabold tracking-tight text-cub-blue">
+                2026–27 Program Overview
+              </h3>
+
+              <div class="inline-flex items-center px-5 py-2 mt-6 text-sm font-bold tracking-wider uppercase bg-cub-gold rounded-full text-cub-blue">
+                Coming Soon
               </div>
+
+              <p class="max-w-md mx-auto mt-6 mb-0 leading-7 text-slate-600">
+                Our complete schedule of meetings, adventures, activities and special events will be available here soon.
+              </p>
             </div>
           </div>
-        </a>
+        </div>
       </div>
 
+      <!-- Copy -->
       <div class="order-1 lg:order-2">
-        <p class="mb-3 text-sm font-bold tracking-[0.22em] uppercase text-white/70">The year ahead</p>
+        <p class="mb-3 text-sm font-bold tracking-[0.22em] uppercase text-white/70">
+          The year ahead
+        </p>
+
         <h2 class="m-0 text-4xl font-extrabold tracking-[0.05em] uppercase text-cub-gold sm:text-5xl">
           2026–27 at a glance
         </h2>
+
         <p class="max-w-xl mt-5 text-lg leading-relaxed text-blue-50">
-          Campouts, pack meetings, service, Pinewood Derby, outdoor adventures and more. See what a year with Pack 147 looks like.
+          Pack 147 has a full year of meetings, activities and adventures ahead.
+          We're putting the finishing touches on our complete 2026–27 program overview.
         </p>
-        <a href="{{ '/assets/docs/pack57-2026-2027-overview.pdf' | relative_url }}"
-           target="_blank" rel="noopener"
-           class="inline-flex items-center justify-center px-6 py-3 mt-7 font-bold transition rounded-xl bg-cub-gold text-cub-blue hover:bg-yellow-300">
-          View the Program Overview
-        </a>
+
+        <div class="inline-flex items-center justify-center px-6 py-3 mt-7 font-bold text-white rounded-xl bg-white/10 ring-1 ring-white/20">
+          Program Overview · Coming Soon
+        </div>
       </div>
+
     </div>
   </div>
 </section>
