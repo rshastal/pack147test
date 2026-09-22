@@ -1,3 +1,4 @@
+
 ---
 layout: default
 navbarText: Grosse Pointe Park, MI
@@ -278,54 +279,84 @@ title: Cub Scout Pack 147
 </section>
 
 <!-- LEADERS + DEN FINDER -->
-<!-- YEAR AT A GLANCE -->
-<section class="px-4 py-14 bg-slate-50 sm:px-6 sm:py-16 lg:px-8">
-  <div class="max-w-6xl mx-auto overflow-hidden shadow-sm rounded-3xl bg-cub-blue">
-    <div class="grid items-center gap-10 px-6 py-10 sm:px-10 sm:py-14 lg:grid-cols-[1.1fr_1fr] lg:gap-14 lg:px-14">
+<section class="bg-slate-50">
+  <div class="grid max-w-6xl gap-12 px-4 py-16 mx-auto lg:grid-cols-2 sm:py-20">
 
-      <!-- Coming Soon Preview -->
-      <div class="order-2 lg:order-1">
-        <div class="relative max-w-[88%] mx-auto py-5">
-          <div class="flex min-h-[280px] items-center justify-center overflow-hidden bg-white rounded-xl shadow-2xl">
-            <div class="px-8 py-10 text-center">
-              <p class="m-0 text-sm font-bold tracking-[0.2em] uppercase text-cub-blue/60">
-                Pack 147
-              </p>
+    <!-- LEADERS -->
+    <div markdown="1">
+      {% include leaders.md %}
+    </div>
 
-              <h3 class="mt-4 mb-0 text-3xl font-extrabold tracking-tight text-cub-blue">
-                2026–27 Program Overview
-              </h3>
+    <!-- DEN FINDER -->
+    <div>
+      <p class="mb-2 text-sm font-bold tracking-[0.2em] uppercase text-cub-blue/60">
+        Kindergarten through fifth grade
+      </p>
 
-              <div class="inline-flex items-center px-5 py-2 mt-6 text-sm font-bold tracking-wider uppercase bg-cub-gold rounded-full text-cub-blue">
-                Coming Soon
-              </div>
+      <h2 class="m-0 text-4xl font-extrabold text-cub-blue">
+        Find Your Den
+      </h2>
 
-              <p class="max-w-md mx-auto mt-6 mb-0 leading-7 text-slate-600">
-                Our complete schedule of meetings, adventures, activities and special events will be available here soon.
-              </p>
-            </div>
+      <p class="mt-4 text-slate-600">
+        Meetings are organized by grade so Scouts grow through the program with kids their age. New families are welcome.
+      </p>
+
+      <div class="grid gap-3 mt-7">
+
+        <div class="flex items-center justify-between p-4 bg-white rounded-xl ring-1 ring-slate-200">
+          <div>
+            <p class="m-0 font-bold">Lions</p>
+            <p class="mt-1 mb-0 text-sm text-slate-500">Kindergarten</p>
           </div>
+          <p class="m-0 text-sm font-semibold text-cub-blue">Wednesdays</p>
         </div>
+
+        <div class="flex items-center justify-between p-4 bg-white rounded-xl ring-1 ring-slate-200">
+          <div>
+            <p class="m-0 font-bold">Tigers</p>
+            <p class="mt-1 mb-0 text-sm text-slate-500">1st Grade</p>
+          </div>
+          <p class="m-0 text-sm font-semibold text-cub-blue">Wednesdays</p>
+        </div>
+
+        <div class="flex items-center justify-between p-4 bg-white rounded-xl ring-1 ring-slate-200">
+          <div>
+            <p class="m-0 font-bold">Wolves</p>
+            <p class="mt-1 mb-0 text-sm text-slate-500">2nd Grade</p>
+          </div>
+          <p class="m-0 text-sm font-semibold text-cub-blue">Wednesdays</p>
+        </div>
+
+        <div class="flex items-center justify-between p-4 bg-white rounded-xl ring-1 ring-slate-200">
+          <div>
+            <p class="m-0 font-bold">Bears</p>
+            <p class="mt-1 mb-0 text-sm text-slate-500">3rd Grade</p>
+          </div>
+          <p class="m-0 text-sm font-semibold text-cub-blue">Wednesdays</p>
+        </div>
+
+        <div class="flex items-center justify-between p-4 bg-white rounded-xl ring-1 ring-slate-200">
+          <div>
+            <p class="m-0 font-bold">Webelos &amp; Arrow of Light</p>
+            <p class="mt-1 mb-0 text-sm text-slate-500">4th–5th Grade</p>
+          </div>
+          <p class="m-0 text-sm font-semibold text-cub-blue">Wednesdays</p>
+        </div>
+
       </div>
 
-      <!-- Copy -->
-      <div class="order-1 lg:order-2">
-        <p class="mb-3 text-sm font-bold tracking-[0.22em] uppercase text-white/70">
-          The year ahead
-        </p>
+      <div class="flex flex-wrap items-center gap-4 mt-7">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeOEj-jI40fscwo9memaMbL9ConldTthiJvY-vEp3hdWp7MAQ/viewform"
+           target="_blank"
+           rel="noopener"
+           class="inline-flex items-center justify-center px-5 py-3 font-bold text-white transition rounded-xl bg-cub-blue hover:opacity-90">
+          Ask a Question
+        </a>
 
-        <h2 class="m-0 text-4xl font-extrabold tracking-[0.05em] uppercase text-cub-gold sm:text-5xl">
-          2026–27 at a glance
-        </h2>
-
-        <p class="max-w-xl mt-5 text-lg leading-relaxed text-blue-50">
-          Pack 147 has a full year of meetings, activities and adventures ahead.
-          We're putting the finishing touches on our complete 2026–27 program overview.
-        </p>
-
-        <div class="inline-flex items-center justify-center px-6 py-3 mt-7 font-bold text-white rounded-xl bg-white/10 ring-1 ring-white/20">
-          Program Overview · Coming Soon
-        </div>
+        <a href="mailto:gppack147@gmail.com"
+           class="font-bold text-cub-blue hover:underline">
+          gppack147@gmail.com
+        </a>
       </div>
 
     </div>
