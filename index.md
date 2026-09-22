@@ -1,4 +1,3 @@
-
 ---
 layout: default
 navbarText: Grosse Pointe Park, MI
