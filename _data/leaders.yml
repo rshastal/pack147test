@@ -1,36 +1,31 @@
 # Pack 147 Leaders
 # This data file contains information about all pack leaders
-# Format:
-#   - name: Leader's name (use first name and last initial, or just "TBD" for vacant positions)
-#     role: Leadership role
-#     image: Path to profile image
-#     ring_color: Tailwind color for the ring around the image
 
 - name: Kelli R
-  role: Cub Master, Den Leader (Webolos, AOL)
-  image:
+  role: Cub Master, Den Leader (Webelos, AOL)
+  image: /assets/images/webelosleader.png
   ring_color: slate-400
 
 - name: Amy G
   role: Committee Chair
-  image: /assets/images/erinh.png
+  image: /assets/images/lionleader.png
   ring_color: slate-400
 
 - name: Taunya S
   role: Treasurer
-  image: /assets/images/anniel.png
+  image: /assets/images/wolfleader.png
   ring_color: slate-400
 
 - name: Taunya S
   role: Fundraising
-  image:
-  img_color: slate-400
+  image: /assets/images/bearleader.png
+  ring_color: slate-400
 
 - name: TBD
   role: Activity Chair
-  image:
+  image: /assets/images/tbd.jpg
   ring_color: slate-400
-  
+
 - name: Amy G
   role: Den Leader (Lions)
   image: /assets/images/lionleader.png
@@ -38,20 +33,20 @@
 
 - name: Amy G
   role: Den Leader (Tigers)
-  image: /assets/images/wolfleader.png
+  image: /assets/images/tigerleader.png
   ring_color: yellow-700
 
 - name: Taunya S
   role: Den Leader (Wolves)
-  image: /assets/images/bearleader.png
+  image: /assets/images/wolfleader.png
   ring_color: yellow-700
 
-- name: Taunya s
+- name: Taunya S
   role: Den Leader (Bears)
-  image: /assets/images/webelosleader.png
+  image: /assets/images/bearleader.png
   ring_color: yellow-700
 
 - name: You?
   role: ""
-  image: /assets/images/blankleader.png
+  image: "/assets/images/pointing finger.jpg"
   ring_color: yellow-700
