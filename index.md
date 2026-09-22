@@ -282,10 +282,10 @@ title: Cub Scout Pack 147
 <section class="bg-slate-50">
   <div class="grid max-w-6xl gap-12 px-4 py-16 mx-auto lg:grid-cols-2 sm:py-20">
 
-    <!-- LEADERS -->
-    <div markdown="1">
-      {% include leaders.md %}
-    </div>
+   <!-- LEADERS -->
+<div>
+  {% include leaders.md %}
+</div>
 
     <!-- DEN FINDER -->
     <div>
