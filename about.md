@@ -48,7 +48,7 @@ permalink: /about/
     <div class="flex items-center justify-center shrink-0">
       <img src="{{ '/assets/images/IMG_0220.png' | relative_url }}"
            alt="Cub Scout Pack 147 Grosse Pointe Park"
-           class="object-contain w-28 h-28"
+           class="object-contain w-20 h-20"
            loading="lazy"
            decoding="async">
     </div>
