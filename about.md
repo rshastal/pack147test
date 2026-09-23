@@ -10,21 +10,17 @@ permalink: /about/
     <h2 class="text-2xl font-bold text-cub-blue">Why We Exist</h2>
 
     <p class="mt-4 text-lg leading-7">
-      Pack 147 exists to build character in young people. In a world of screens and structured activities,
-      Cub Scouting offers something different: authentic adventures where children discover their capabilities,
-      connect with nature, and develop the values that shape good citizens and future leaders.
+   Pack 147 gives youth a chance to step away from screens and experience the real world through outdoor adventures, hands-on activities, and meaningful 
+   friendships. Our program helps Scouts build confidence, character, and leadership skills while having fun along the way.
     </p>
 
     <p class="mt-4 text-lg leading-7">
-      Our mission is to prepare young people to make ethical and moral choices over their lifetimes by instilling
-      in them the values of the Scout Oath and Law, fostering a sense of community and service, and creating
-      opportunities for growth through age-appropriate challenges and achievements.
+     Our goal is to provide a fun, supportive environment where youth can learn leadership, practice service to others, and strengthen the values found in the 
+     Scout Oath and Scout Law. Every activity is designed to encourage personal growth, good citizenship, and a spirit of curiosity.
     </p>
 
     <p class="mt-4 text-lg leading-7">
-      We believe every child deserves the chance to explore their world, build confidence through achievement,
-      and learn the joy of helping others. Through purposeful fun and guided discovery, we're creating not just
-      better Scouts, but better people.
+    Our program helps Scouts discover their strengths, take on new challenges, and develop into capable, caring members of their community.
     </p>
   </div>
 
