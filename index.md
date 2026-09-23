@@ -187,7 +187,7 @@ title: Cub Scout Pack 147
       <p class="mb-2 text-sm font-bold tracking-[0.2em] uppercase text-cub-blue/60">More than meetings</p>
       <h2 class="m-0 text-4xl font-extrabold text-cub-blue">Why Cub Scouting?</h2>
       <p class="mt-5 text-lg leading-8 text-slate-700">
-        Scouting America welcomes families to discover outdoor adventure, community, and character. In Pack 147, kids build confidence and leadership through hands-on experiences — and have a lot of fun doing it.
+        Scouting America brings families together through outdoor adventures, community involvement, and character development. At Pack 147, youth learn valuable leadership skills, build self-confidence, and enjoy fun, hands-on experiences that create lasting memories.
       </p>
 
       <div class="grid gap-3 mt-7 sm:grid-cols-2">
@@ -218,9 +218,9 @@ title: Cub Scout Pack 147
     <div class="grid grid-cols-2 gap-4">
       <img src="{{ '/assets/images/crafting.jpg' | relative_url }}" alt="Parent and child working on a craft"
            class="object-cover w-full h-48 shadow-sm rounded-2xl sm:h-56" loading="lazy" decoding="async">
-      <img src="{{ '/assets/images/cleanup.jpg' | relative_url }}" alt="Pack members at a community cleanup"
+      <img src="{{ '/assets/images/cleanup.jpeg' | relative_url }}" alt="Pack members at a community cleanup"
            class="object-cover w-full h-48 mt-6 shadow-sm rounded-2xl sm:h-56" loading="lazy" decoding="async">
-      <img src="{{ '/assets/images/smores.jpg' | relative_url }}" alt="S'mores at a Scout activity"
+      <img src="{{ '/assets/images/smores.jpeg' | relative_url }}" alt="S'mores at a Scout activity"
            class="object-cover w-full h-48 -mt-6 shadow-sm rounded-2xl sm:h-56" loading="lazy" decoding="async">
       <img src="{{ '/assets/images/goo.jpg' | relative_url }}" alt="Scouts doing a science activity"
            class="object-cover w-full h-48 shadow-sm rounded-2xl sm:h-56" loading="lazy" decoding="async">
