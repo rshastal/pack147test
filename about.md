@@ -25,7 +25,7 @@ permalink: /about/
   </div>
 
   <div>
-    <img src="{{ '/assets/images/race.jpg' | relative_url }}"
+    <img src="{{ '/assets/images/pack147.jpg' | relative_url }}"
          alt="Pack 147 Scouts hiking together"
          class="object-cover w-full h-80 rounded-xl"
          loading="lazy"
