@@ -220,9 +220,9 @@ title: Cub Scout Pack 147
            class="object-cover w-full h-48 shadow-sm rounded-2xl sm:h-56" loading="lazy" decoding="async">
       <img src="{{ '/assets/images/cleanup.jpg' | relative_url }}" alt="Pack members at a community cleanup"
            class="object-cover w-full h-48 mt-6 shadow-sm rounded-2xl sm:h-56" loading="lazy" decoding="async">
-      <img src="{{ '/assets/images/smores.jpg' | relative_url }}" alt="S'mores at a Scout activity"
+      <img src="{{ '/assets/images/flag.jpg' | relative_url }}" alt="S'mores at a Scout activity"
            class="object-cover w-full h-48 -mt-6 shadow-sm rounded-2xl sm:h-56" loading="lazy" decoding="async">
-      <img src="{{ '/assets/images/goo.jpg' | relative_url }}" alt="Scouts doing a science activity"
+      <img src="{{ '/assets/images/hike.jpg' | relative_url }}" alt="Scouts doing a science activity"
            class="object-cover w-full h-48 shadow-sm rounded-2xl sm:h-56" loading="lazy" decoding="async">
     </div>
   </div>
