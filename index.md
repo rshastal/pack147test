@@ -7,7 +7,7 @@ title: Cub Scout Pack 147
 <!-- HERO -->
 <section class="relative overflow-hidden">
   <div class="absolute inset-0">
-    <img src="{{ '/assets/images/hiking-together.jpg' | relative_url }}"
+    <img src="{{ '/assets/images/hiking-together.jpeg' | relative_url }}"
          alt="Cub Scouts hiking together"
          class="object-cover w-full h-full"
          fetchpriority="high" decoding="async">
