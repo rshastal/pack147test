@@ -278,6 +278,5 @@ permalink: /about/
    class="inline-flex items-center px-6 py-3 font-bold text-white transition rounded-xl bg-slate-900 hover:bg-slate-800">
   Contact Us
 </a>
-    </a>
   </div>
 </div>
