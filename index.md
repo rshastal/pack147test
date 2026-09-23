@@ -266,7 +266,7 @@ title: Cub Scout Pack 147
       </article>
 
       <article class="overflow-hidden transition bg-white shadow-sm rounded-2xl ring-1 ring-slate-200 hover:shadow-md">
-        <img src="{{ '/assets/images/ball-game.jpg' | relative_url }}" alt="Pack families having fun together"
+        <img src="{{ '/assets/images/camp.jpg' | relative_url }}" alt="Campout"
              class="object-cover w-full h-44" loading="lazy" decoding="async">
         <div class="p-5">
           <h3 class="m-0 text-lg font-bold">Fun & Friendship</h3>
