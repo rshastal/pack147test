@@ -2,10 +2,20 @@
 # This data file contains information about all pack leaders
 
 - name: Kelli R
-  role: Cub Master, Den Leader (Webelos, AOL)
+  role: Cub Master
   image: /assets/images/webelosleader.png
   ring_color: slate-400
 
+- name: Kelli R
+  role: Den Leader (Webelos)
+  image: /assets/images/webelosleader.png
+  ring_color: yellow-700
+
+- name: Kelli R
+  role: Den Leader (Arrow of Light)
+  image: /assets/images/aolleader.png
+  ring_color: yellow-700
+  
 - name: Amy G
   role: Committee Chair
   image: /assets/images/lionleader.png
