@@ -25,7 +25,7 @@ permalink: /about/
   </div>
 
   <div>
-    <img src="{{ '/assets/images/scout-me-in.jpg' | relative_url }}"
+    <img src="{{ '/assets/images/race.jpg' | relative_url }}"
          alt="Pack 147 Scouts hiking together"
          class="object-cover w-full h-80 rounded-xl"
          loading="lazy"
@@ -42,7 +42,7 @@ permalink: /about/
   <div class="flex flex-col items-center gap-6 mt-8 md:flex-row md:items-center">
 
     <div class="flex items-center justify-center shrink-0">
-      <img src="{{ '/assets/images/race.png' | relative_url }}"
+      <img src="{{ '/assets/images/pack147.png' | relative_url }}"
            alt="Cub Scout Pack 147 Grosse Pointe Park"
            class="object-contain w-20 h-20"
            loading="lazy"
