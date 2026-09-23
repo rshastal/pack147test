@@ -216,13 +216,13 @@ title: Cub Scout Pack 147
     </div>
 
     <div class="grid grid-cols-2 gap-4">
-      <img src="{{ '/assets/images/crafting.jpg' | relative_url }}" alt="Parent and child working on a craft"
+      <img src="{{ '/assets/images/crafting.jpg' | relative_url }}" alt="Holiday Cards"
            class="object-cover w-full h-48 shadow-sm rounded-2xl sm:h-56" loading="lazy" decoding="async">
       <img src="{{ '/assets/images/cleanup.jpg' | relative_url }}" alt="Pack members at a community cleanup"
            class="object-cover w-full h-48 mt-6 shadow-sm rounded-2xl sm:h-56" loading="lazy" decoding="async">
-      <img src="{{ '/assets/images/flag.jpg' | relative_url }}" alt="S'mores at a Scout activity"
+      <img src="{{ '/assets/images/flag.jpg' | relative_url }}" alt="Learning about flags"
            class="object-cover w-full h-48 -mt-6 shadow-sm rounded-2xl sm:h-56" loading="lazy" decoding="async">
-      <img src="{{ '/assets/images/hike.jpg' | relative_url }}" alt="Scouts doing a science activity"
+      <img src="{{ '/assets/images/hike.jpg' | relative_url }}" alt="Scouts on a hike"
            class="object-cover w-full h-48 shadow-sm rounded-2xl sm:h-56" loading="lazy" decoding="async">
     </div>
   </div>
