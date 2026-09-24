@@ -128,7 +128,7 @@ permalink: /register/
         </h3>
 
         <p class="mt-3 text-slate-600">
-          $185 to Scouting America covers national and Michigan Crossroads Council registration.
+          $170 to Scouting America covers national and Michigan Crossroads Council registration.
           Add $15 for an optional year of <em>Scout Life</em> magazine.
         </p>
 
