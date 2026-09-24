@@ -49,15 +49,15 @@ hideTitle: true
 
     <div class="overflow-hidden bg-white shadow-sm rounded-2xl ring-1 ring-slate-200">
       <div class="relative w-full" style="padding-bottom: 75%;">
-        <iframe
-          src="https://calendar.google.com/calendar/embed?src=7qar7h37q33ng9iuto1n4vkejm9n9tau%40import.calendar.google.com&ctz=America%2FDetroit"
-          class="absolute inset-0 w-full h-full"
-          style="border:0"
-          frameborder="0"
-          scrolling="no"
-          loading="lazy"
-          title="Pack 147 Google Calendar">
-        </iframe>
+<iframe
+  src="https://calendar.google.com/calendar/embed?src=33744626b4d45bab325c625fd0b517eb9742d8db2af384b822d03841c4ff8c5f%40group.calendar.google.com&ctz=America%2FDetroit"
+  class="absolute inset-0 w-full h-full"
+  style="border:0"
+  frameborder="0"
+  scrolling="no"
+  loading="lazy"
+  title="Pack 147 Google Calendar">
+</iframe>
       </div>
     </div>
 
