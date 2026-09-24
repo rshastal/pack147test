@@ -132,7 +132,7 @@ permalink: /about/
   <div class="grid gap-12 px-8 bg-white md:grid-cols-2">
 
     <div>
-      <h2 class="text-2xl font-bold text-cub-blue">Cub Scout Motto &amp; Slogan</h2>
+      <h2 class="text-2xl font-bold text-cub-blue">Cub Scout Motto </h2>
 
       <div class="p-6 mt-4 rounded-xl">
         <h3 class="text-xl font-bold text-cub-gold">
