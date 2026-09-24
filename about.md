@@ -140,22 +140,10 @@ permalink: /about/
         </h3>
 
         <p class="mt-2">
-          These three simple words guide everything we do in Cub Scouting. We don't expect perfection—we
-          encourage each Scout to set their own personal goals and then give 100% effort toward achieving them.
+         At the heart of Cub Scouting is the belief that effort matters. We encourage Scouts to take on challenges with a positive attitude, work toward personal
+         goals, and be proud of the progress they make along the way. Every step forward is an achievement worth celebrating.
         </p>
       </div>
-
-      <div class="p-6 mt-6 rounded-xl">
-        <h3 class="text-xl font-bold text-cub-blue">
-          Our Slogan: "Do a Good Turn Daily"
-        </h3>
-
-        <p class="mt-2">
-          This reminds Scouts to do at least one act of service each day, developing the habit of thinking
-          about others first and creating a lifetime pattern of service and citizenship.
-        </p>
-      </div>
-    </div>
 
     <div>
       <h2 class="text-2xl font-bold text-cub-blue">The Outdoor Code</h2>
