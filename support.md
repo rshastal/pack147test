@@ -16,7 +16,7 @@ permalink: /support/
 <div class="p-12 bg-white">
   <h2 class="text-2xl font-bold text-cub-blue">Class B Shirts &amp; Sweatshirts</h2>
   <p class="mt-4 text-lg leading-7">
-    Show your Pack 147 pride! Order a Class B shirt or sweatshirt for your Scout and family. Every order supports our pack.
+    Show your Pack 147 pride! Order a Class B shirt or sweatshirt for your Scout and family. A percentage of every order supports our pack.
   </p>
   <p class="mt-4 text-lg leading-7"><strong>Order deadline:</strong> [add date]</p>
   <p class="mt-2 text-lg leading-7"><strong>Pickup / delivery:</strong> [add details]</p>
