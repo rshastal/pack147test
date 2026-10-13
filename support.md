@@ -38,9 +38,9 @@ permalink: /support/
   <p class="mt-2 text-lg leading-7"><strong>Pickup date:</strong> December 4, 2026</p>
   <p class="mt-2 text-lg leading-7">Items are made fresh to order and may vary slightly from the photos.</p>
 
-  <a href="{'assests/images/2026WreathFundraiser.png' | relative_url}}" target="_blank" rel="noopener">
-      <img src="{{ '/assests/images/2026WreathFundraiser.png' | relative_ur }}
-           alt=Pack 147 Wreath Fundraiser 2026 Flyer showing all items and prices"
+  <a href="{{ '/assets/images/2026WreathFundraiser.png' | relative_url}}" target="_blank" rel="noopener">
+      <img src="{{ '/assests/images/2026WreathFundraiser.png' | relative_url }}
+           alt="Pack 147 Wreath Fundraiser 2026 Flyer showing all items and prices"
            class="mt-6 w-full max-w-xl rounded-xl"
            loading="lazy" decoding="asyn">
   </a>
