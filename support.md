@@ -64,7 +64,7 @@ permalink: /support/
   </table>
 
   <p class="mt-6">
-    <a href="https://REPLACE-WITH-WREATH-ORDER-FORM-LINK" target="_blank" rel="noopener"
+    <a href="https://forms.gle/cGyqBmALMpaUwW6n6" target="_blank" rel="noopener"
        class="inline-block rounded-xl bg-cub-blue px-6 py-3 text-lg font-bold text-white">
       Order Holiday Wreaths
     </a>
