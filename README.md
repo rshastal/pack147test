@@ -1,10 +1,10 @@
 # Pack 57 Website
 
-A Jekyll-based website for Cub Scout Pack 57 in Palo Alto, CA.
+A Jekyll-based website for Cub Scout Pack 147 in Grosse Pointe Park, Mi.
 
 ## Overview
 
-This repository contains the source code for the Pack 57 website. The site is built using Jekyll, styled with TailwindCSS, and integrates with Google Calendar for event management.
+This repository contains the source code used from the Pack 57 website. The site is built using Jekyll, styled with TailwindCSS, and integrates with Google Calendar for event management.
 
 We intend to create a more easily deployable template version of this site in the future. In the meantime, we've made this repository available to other Scouting America organizations so they can use it as a starting point for their own websites.
 
