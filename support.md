@@ -37,7 +37,7 @@ permalink: /support/
         <!-- Image Column -->
         <div class="w-full md:w-1/3 flex justify-center md:justify-end">
             <img
-                src="returnables.png"
+                src="{{ '/assets/images/returnables.png' | relative_url }}"
                 alt="Recyclable returnable bottles and cans"
                 class="w-full max-w-sm rounded-2xl shadow-lg"
             >
