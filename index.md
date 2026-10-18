@@ -224,6 +224,8 @@ title: Cub Scout Pack 147
            class="object-cover w-full h-48 -mt-6 shadow-sm rounded-2xl sm:h-56" loading="lazy" decoding="async">
       <img src="{{ '/assets/images/hike.jpg' | relative_url }}" alt="Scouts on a hike"
            class="object-cover w-full h-48 shadow-sm rounded-2xl sm:h-56" loading="lazy" decoding="async">
+      <img src="{{ '/assets/images/archery.jpg' | relative_url }}" alt="Scouts learning archery"
+           class="object-cover w-full h-48 shadow-sm rounded-2xl sm:h-56" loading="lazy" decoding="async">
     </div>
   </div>
 </section>
