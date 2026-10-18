@@ -45,8 +45,8 @@ permalink: /support/
   <p class="mt-4 text-lg leading-7">
     Show your Pack 147 pride! Order a Class B shirt or sweatshirt for your Scout and family. A percentage of every order supports our pack.
   </p>
-  <p class="mt-4 text-lg leading-7"><strong>Order deadline:</strong> [add date]</p>
-  <p class="mt-2 text-lg leading-7"><strong>Pickup / delivery:</strong> [add details]</p>
+  <p class="mt-4 text-lg leading-7"><strong>Order deadline:</strong> [TBD]</p>
+  <p class="mt-2 text-lg leading-7"><strong>Pickup / delivery:</strong> [TBD]</p>
   <p class="mt-6">
     <a href="https://REPLACE-WITH-SHIRT-ORDER-FORM-LINK" target="_blank" rel="noopener"
        class="inline-block rounded-xl bg-cub-blue px-6 py-3 text-lg font-bold text-white">
