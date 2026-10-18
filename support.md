@@ -25,13 +25,16 @@ permalink: /support/
             <p class="text-lg leading-8 text-gray-700">
                 A Scout is THRIFTY! Have extra returnable bottles or cans taking
                 up space in your garage? We will gladly come pick them up!
-                Every return helps fund our Pack activities, campouts, advancements,
-                Pinewood Derby events, and community service projects.
+                Every return helps fund our Pack activities, campouts,
+                advancements, Pinewood Derby events, and community service projects.
             </p>
 
-            <a
-                href="mailto:gppack147@gmail.com?subject=Scout%20Bottle%20Return%20Pickup%20Request&body=Hi%20Pack%20147,%0D%0A%0D%0AI%20have%20returnables%20available%20for%20pickup.%0D%0A%0D%0AAddress:%0D%0A%0D%0ABest%20time%20for%20pickup:%0D%0A"
-                class="inline-block mt-8 rounded-xl bg-cub-blue px>
+            gppack147@gmail.com?subject=Scout%20Bottle%20Return%20Pickup%20Request&body=Hi%20Pack%20147,%0D%0A%0D%0AI%20have%20returnables%20available%20for%20pickup.%0D%0A%0D%0AAddress:%0D%0A%0D%0ABest%20time%20for%20pickup:
+                Email Us for a Pickup
+            </a>
+        </div>
+
+        <!-- Image Column -->
         <div class="w-full md:w-1/3 flex justify-center md:justify-end">
             <img
                 src="returnables.png"
