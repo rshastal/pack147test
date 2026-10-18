@@ -24,7 +24,7 @@ permalink: /support/
 
             <p class="text-lg leading-8 text-gray-700">
                 A Scout is THRIFTY! Have extra returnable bottles or cans taking
-                up space in your garage? We will gladly come pick them up! Send us an email with your address and we will arrange a pick up
+                up space in your garage? We will gladly come pick them up! Send us an email with your address and we will arrange a local pick up 
          </p>   
             <p class="mt-6">
 
