@@ -28,8 +28,6 @@ permalink: /support/
          </p>   
             <p class="mt-6">
 
-        </div>
-
         <!-- Image Column -->
         <div class="w-full md:w-1/3 flex justify-center md:justify-end">
             <img
