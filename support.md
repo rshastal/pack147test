@@ -44,9 +44,6 @@ permalink: /support/
             >
         </div>
 
-    </div>
-</div>
-
 <!-- CLASS B SHIRTS -->
 <div class="p-12 bg-white">
   <h2 class="text-2xl font-bold text-cub-blue">Class B Shirts &amp; Sweatshirts</h2>
