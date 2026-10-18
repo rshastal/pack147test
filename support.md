@@ -12,6 +12,34 @@ permalink: /support/
   </p>
 </div>
 
+<!-- Returnables -->
+<div class="p-12 bg-white border-t border-gray-100">
+  <div class="flex flex-col md:flex-row items-center gap-8">
+    
+    <!-- Image Column -->
+    <div class="w-full md:w-1/3 flex justify-center">
+      <img src="https://unsplash.com" alt="Recyclable returnable bottles and cans" class="rounded-2xl shadow-md max-w-full h-auto object-cover max-h-64">
+    </div>
+
+    <!-- Text and Action Column -->
+    <div class="w-full md:w-2/3">
+      <h2 class="text-2xl font-bold text-cub-blue">Bottle &amp; Can Drive</h2>
+      <p class="mt-4 text-lg leading-7 text-gray-700">
+       A Scout is THRIFY! Have extra returnable bottles or cans taking up space in your garage? We will gladly come pick them up! Every return helps fund our pack activities, campouts, and community projects.
+      </p>
+      <p class="mt-6">
+        <a href="mailto:gppack147@://gmail.com Scout Bottle Return Pickup Request&body=Hi Pack 147,%0D%0A%0D%0AI have returnables available for pickup!%0D%0A%0D%0AAddress:%0D%0ABest time for pickup:" class="inline-block rounded-xl bg-cub-blue px-6 py-3 text-lg font-bold text-white hover:bg-blue-700 transition-colors">
+          Email Us for a Pickup
+        </a>
+      </p>
+    </div>
+
+  </div>
+</div>
+
+  </div>
+</div>
+
 <!-- CLASS B SHIRTS -->
 <div class="p-12 bg-white">
   <h2 class="text-2xl font-bold text-cub-blue">Class B Shirts &amp; Sweatshirts</h2>
