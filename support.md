@@ -14,10 +14,10 @@ permalink: /support/
 
 <!-- Returnables -->
 <div class="p-12 bg-white border-t border-gray-100">
-    <div class="flex flex-col md:flex-row items-center gap-10">
+    <div class="flex flex-col md:flex-row items-start gap-12">
 
         <!-- Text Column -->
-        <div class="w-full md:w-2/3 text-left">
+        <div class="w-full md:w-3/5 text-left">
             <h2 class="text-2xl font-bold text-cub-blue mb-4">
                 Bottle &amp; Can Drive
             </h2>
