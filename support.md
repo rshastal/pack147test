@@ -18,7 +18,7 @@ permalink: /support/
 
         <!-- Text Column -->
         <div class="w-full md:w-2/3 text-left">
-            <h2 class="text-3xl font-bold text-cub-blue mb-4">
+            <h2 class="text-2xl font-bold text-cub-blue mb-4">
                 Bottle &amp; Can Drive
             </h2>
 
@@ -27,10 +27,11 @@ permalink: /support/
                 up space in your garage? We will gladly come pick them up!
                 Every return helps fund our Pack activities, campouts,
                 advancements, Pinewood Derby events, and community service projects.
-            </p>
-
-            gppack147@gmail.com?subject=Scout%20Bottle%20Return%20Pickup%20Request&body=Hi%20Pack%20147,%0D%0A%0D%0AI%20have%20returnables%20available%20for%20pickup.%0D%0A%0D%0AAddress:%0D%0A%0D%0ABest%20time%20for%20pickup:
-                Email Us for a Pickup
+         </p>   
+            <p class="mt-6">
+  <a
+    href="mailto:gppack147@gmail.com?subject=Scout%20Bottle%20Return%20Pickup%20Request"
+    class="inline-block rounded-xl bg-
             </a>
         </div>
 
@@ -39,7 +40,7 @@ permalink: /support/
             <img
                 src="{{ '/assets/images/returnables.png' | relative_url }}"
                 alt="Recyclable returnable bottles and cans"
-                class="w-full max-w-sm rounded-2xl shadow-lg"
+                class="w-full max-w-xs rounded-xl shadow-md"
             >
         </div>
 
