@@ -17,7 +17,7 @@ permalink: /support/
     <div class="flex flex-col md:flex-row items-start gap-12">
 
         <!-- Text Column -->
-        <div class="w-full md:w-3/5 text-left">
+        <div class="w-full md:w-3/5 md:ml-10 text-left">
             <h2 class="text-2xl font-bold text-cub-blue mb-4">
                 Bottle &amp; Can Drive
             </h2>
