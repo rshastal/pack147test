@@ -2,6 +2,7 @@
 layout: default
 title: Support Our Pack
 permalink: /support/
+---
 <!-- INTRO -->
 <div class="p-12 mt-10 bg-white">
   <h2 class="text-2xl font-bold text-cub-blue">Support Our Pack</h2>
