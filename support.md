@@ -42,7 +42,7 @@ permalink: /support/
   <p class="mt-4 text-lg leading-7"><strong>Order deadline:</strong> November 30, 2026</p>
   <p class="mt-2 text-lg leading-7"><strong>Pickup / delivery:</strong> [TBD]</p>
 <p class="mt-6">
-    <a href="https://REPLACE-WITH-SHIRT-ORDER-FORM-LINK" target="_blank" rel="noopener"
+    <a href="[https://forms.gle/rWqcawdCJk1bNKUK7]" target="_blank" rel="noopener"
        class="inline-block rounded-xl bg-cub-blue px-6 py-3 text-lg font-bold text-white">
       Order Shirts &amp; Sweatshirts
     </a>
