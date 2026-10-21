@@ -92,7 +92,7 @@ permalink: /register/
         </h3>
 
         <p class="mt-3 text-slate-600">
-          $75 covers awards, recognition items, craft supplies, meeting space, and special events.
+          $75 covers awards, recognition items, craft supplies, one class A tee shirt, neckerchief and special events.
         </p>
 
         <dl class="mt-5 text-sm text-slate-500 space-y-1">
@@ -186,7 +186,7 @@ permalink: /register/
 
         <p class="mt-3 text-slate-600">
           Class A shirt, pants, and neckerchief — about $80. Each rank wears a different
-          neckerchief, so wait until you know your scout's den. A Class B shirt is included
+          neckerchief, so wait until you know your scout's den before ordering. A Class B shirt is included
           in Pack dues.
         </p>
 
