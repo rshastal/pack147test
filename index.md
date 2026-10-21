@@ -49,7 +49,7 @@ title: Cub Scout Pack 147
       <!-- Program Overview Preview -->
       <div class="order-2 lg:order-1">
         <div class="relative max-w-[95%] mx-auto py-5">
-          <a href="{{ '/assets/docs/pack147-2026-2027-year-at-a-glance.pdf' | relative_url }}"
+          <a href="{{ '/assets/pack147-2026-2027-year-at-a-glance.pdf' | relative_url }}"
              target="_blank"
              rel="noopener"
              class="block overflow-hidden transition bg-white rounded-xl shadow-2xl hover:scale-[1.01]">
@@ -79,7 +79,7 @@ title: Cub Scout Pack 147
           outdoor adventures and more, see what's ahead for Pack 147 this year.
         </p>
 
-        <a href="{{ '/assets/docs/pack147-2026-2027-year-at-a-glance.pdf' | relative_url }}"
+        <a href="{{ '/assets/pack147-2026-2027-year-at-a-glance.pdf' | relative_url }}"
            target="_blank"
            rel="noopener"
            class="inline-flex items-center justify-center px-6 py-3 mt-7 font-bold transition rounded-xl bg-cub-gold text-cub-blue hover:bg-yellow-300">
