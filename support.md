@@ -43,13 +43,19 @@ permalink: /support/
   <p class="mt-4 text-lg leading-7">
     Show your Pack 147 pride! Order a Class B shirt or sweatshirt for your Scout and family. A percentage of every order supports our pack.
   </p>
-  <p class="mt-4 text-lg leading-7"><strong>Order deadline:</strong> [TBD]</p>
+  <p class="mt-4 text-lg leading-7"><strong>Order deadline:</strong> November 30, 2026 </p>
   <p class="mt-2 text-lg leading-7"><strong>Pickup / delivery:</strong> [TBD]</p>
   <p class="mt-6">
     <a href="https://REPLACE-WITH-SHIRT-ORDER-FORM-LINK" target="_blank" rel="noopener"
        class="inline-block rounded-xl bg-cub-blue px-6 py-3 text-lg font-bold text-white">
       Order Shirts &amp; Sweatshirts
     </a>
+     <a href="{{ '/assets/images/ClassBShirts.png' | relative_url}}" target="_blank" rel="noopener">
+      <img src="{{ '/assets/images/ClassBShirts.png' | relative_url }}"
+           alt="Pack Spirit Wear"
+           class="mt-6 w-full max-w-xl rounded-xl"
+           loading="lazy" decoding="async">
+  </a>
   </p>
 </div>
 
