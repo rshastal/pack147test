@@ -92,7 +92,7 @@ permalink: /register/
         </h3>
 
         <p class="mt-3 text-slate-600">
-          $75 covers awards, recognition items, craft supplies, one class A tee shirt, neckerchief and special events.
+          $75 covers awards, recognition items, craft supplies, one class B tee shirt, neckerchief and special events.
         </p>
 
         <dl class="mt-5 text-sm text-slate-500 space-y-1">
