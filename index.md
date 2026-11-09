@@ -108,7 +108,6 @@ title: Cub Scout Pack 147
       <p class="cu-sub">All dens meet on Wednesdays.</p>
       <ul>
         <li><strong>Wed, Nov 18</strong> – Den Meetings, 6:30 pm</li>
-        <li><strong>Wed, Nov 25</strong> – No meeting (Thanksgiving week)</li>
         <li><strong>Wed, Dec 2</strong> – Pack Meeting, 6:30 pm</li>
       </ul>
     </article>
@@ -141,6 +140,16 @@ title: Cub Scout Pack 147
         <li><strong>Fri, Nov 27, 8:15 am</strong> – Pack meets up to march</li>
         <li>Wear your Class A uniform and dress for the weather</li>
       </ul>
+    </article>
+
+     <!-- Spirit Wear Orders -->
+    <article class="cu-card" data-expires="2026-11-30">
+      <h3>  Spirit Wear Orders</h3>
+      <p class="cu-sub">Pack 147 shirts &amp; sweatshirts. Every order helps our pack!</p>
+      <ul>
+        <li><strong>Orders due:</strong> Mon, Nov 30</li>
+        </ul>
+        <a class+"cu-btn" href="/support">Order Spirit Wear</a>
     </article>
 
   </div>
