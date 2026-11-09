@@ -143,13 +143,13 @@ title: Cub Scout Pack 147
     </article>
 
      <!-- Spirit Wear Orders -->
-    <article class="cu-card" data-expires="2026-11-30">
+    <article class="cu-card cu-urgent" data-expires="2026-11-30">
       <h3>  Spirit Wear Orders</h3>
       <p class="cu-sub">Pack 147 shirts &amp; sweatshirts. Every order helps our pack!</p>
       <ul>
         <li><strong>Orders due:</strong> Mon, Nov 30</li>
         </ul>
-        <a class+"cu-btn" href="/support">Order Spirit Wear</a>
+        <a class="cu-btn" href="/support">Order Spirit Wear</a>
     </article>
 
   </div>
