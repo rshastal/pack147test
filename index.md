@@ -95,90 +95,91 @@ title: Cub Scout Pack 147
   </div>
 </section>
 
-<!-- EVENTS -->
-{%- assign now_epoch = site.time | date: "%s" -%}
-{%- assign upcoming = '' | split: '' -%}
-{%- for p in site.pages -%}
-  {%- if p.url and p.url contains '/events/' and p.event -%}
-    {%- assign ev_iso = p.event.start.dateTime | default: p.event.start.date -%}
-    {%- if ev_iso -%}
-      {%- assign ev_epoch = ev_iso | date: "%s" -%}
-      {%- if ev_epoch >= now_epoch -%}
-        {%- assign upcoming = upcoming | push: p -%}
-      {%- endif -%}
-    {%- endif -%}
-  {%- endif -%}
-{%- endfor -%}
-{%- assign upcoming = upcoming | sort: 'event.sort_key' -%}
+<!-- ===== COMING UP — November 2026 =====
+     Cards with a data-expires date hide themselves automatically after that day. -->
+<section id="coming-up" class="cu">
+  <h2 class="cu-title">Coming Up in November</h2>
 
-<section class="bg-white">
-  <div class="max-w-6xl px-4 py-16 mx-auto sm:py-20">
-    <div class="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
-      <div>
-        <p class="mb-2 text-sm font-bold tracking-[0.2em] uppercase text-cub-blue/60">Pack 147 calendar</p>
-        <h2 class="m-0 text-4xl font-extrabold text-cub-blue">Coming Up</h2>
-      </div>
-      <a href="{{ '/calendar/' | relative_url }}" class="font-bold text-cub-blue hover:underline">
-        Full Calendar →
-      </a>
-    </div>
+  <div class="cu-grid">
 
-    {% if upcoming.size > 0 %}
-      <div class="grid gap-5 mt-8 md:grid-cols-2 lg:grid-cols-3">
-        {% for p in upcoming limit: 6 %}
-          {%- assign ev_iso = p.event.start.dateTime | default: p.event.start.date -%}
-          {%- assign end_iso = p.event.end.dateTime | default: p.event.end.date -%}
-          {%- assign ev_day = ev_iso | date: "%Y-%m-%d" -%}
-          {%- assign end_day = end_iso | date: "%Y-%m-%d" -%}
+    <!-- Den & Pack Meetings -->
+    <article class="cu-card">
+      <h3>🏕️ Den &amp; Pack Meetings</h3>
+      <p class="cu-sub">All dens meet on Wednesdays.</p>
+      <ul>
+        <li><strong>Wed, Nov 18</strong> – Den Meetings, 6:30 pm</li>
+        <li><strong>Wed, Nov 25</strong> – No meeting (Thanksgiving week)</li>
+        <li><strong>Wed, Dec 2</strong> – Pack Meeting, 6:30 pm</li>
+      </ul>
+    </article>
 
-          <article class="flex flex-col p-6 transition bg-slate-50 rounded-2xl ring-1 ring-slate-200 hover:shadow-md">
-            <p class="m-0 text-sm font-bold tracking-wide uppercase text-cub-blue/60">
-              {{ ev_iso | date: "%a • %b %-d" }}
-              {%- if end_iso and end_day != ev_day -%}
-                – {{ end_iso | date: "%a • %b %-d" }}
-              {%- endif -%}
-            </p>
+    <!-- Scouting for Food -->
+    <article class="cu-card">
+      <h3>🥫 Scouting for Food</h3>
+      <p class="cu-sub">Our annual food drive for local families in need.</p>
+      <ul>
+        <li><strong>Sat, Nov 14, 9:00 am</strong> – Food collection day. Thanks to everyone who helped hand out bags on Nov 7!</li>
+      </ul>
+    </article>
 
-            <h3 class="mt-3 mb-0 text-xl font-bold text-slate-900">
-              <a href="{{ p.url | relative_url }}" class="hover:underline">
-                {{ p.title | default: "Pack Event" }}
-              </a>
-            </h3>
+    <!-- Wreath Orders -->
+    <article class="cu-card cu-urgent" data-expires="2026-11-10">
+      <h3>🎄 Holiday Wreath Orders</h3>
+      <p class="cu-sub">$5 from every item supports Pack 147.</p>
+      <ul>
+        <li><strong>Orders due:</strong> Tue, Nov 10</li>
+        <li><strong>Pickup:</strong> Fri, Dec 4</li>
+      </ul>
+      <a class="cu-btn" href="/support">Order a Wreath</a>
+    </article>
 
-            {%- assign loc = p.event.location | default: p.location | default: p.venue -%}
-            {% if loc and p.layout contains "public" %}
-              <p class="mt-3 mb-0 text-sm text-slate-600">{{ loc }}</p>
-            {% endif %}
+    <!-- GP Santa Parade -->
+    <article class="cu-card" data-expires="2026-11-27">
+      <h3>🎅 Grosse Pointe Santa Parade</h3>
+      <p class="cu-sub">March with Pack 147 and help welcome Santa to the Pointes!</p>
+      <ul>
+        <li><strong>Fri, Nov 27, 8:15 am</strong> – Pack meets up to march</li>
+        <li>Wear your Class A uniform and dress for the weather</li>
+      </ul>
+    </article>
 
-            {% if p.event.start.dateTime and end_iso and end_day == ev_day %}
-              <p class="mt-2 mb-0 text-sm text-slate-500">
-                {{ p.event.start.dateTime | date: "%-I:%M %p" }}
-                {% if p.event.end and p.event.end.dateTime %}
-                  – {{ p.event.end.dateTime | date: "%-I:%M %p" }}
-                {% endif %}
-              </p>
-            {% endif %}
-
-            <div class="mt-auto pt-5">
-              <a href="{{ p.url | relative_url }}" class="font-bold text-cub-blue hover:underline">
-                Event Details →
-              </a>
-            </div>
-          </article>
-        {% endfor %}
-      </div>
-    {% else %}
-      <div class="p-8 mt-8 text-center rounded-2xl bg-slate-50 ring-1 ring-slate-200">
-        <h3 class="m-0 text-xl font-bold text-slate-900">See what's coming up with Pack 147.</h3>
-        <p class="mt-2 mb-5 text-slate-600">Pack meetings, den activities, service projects and special events are on our calendar.</p>
-        <a href="{{ '/calendar/' | relative_url }}"
-           class="inline-flex items-center justify-center px-5 py-3 font-bold text-white transition rounded-xl bg-cub-blue hover:opacity-90">
-          Open Pack Calendar
-        </a>
-      </div>
-    {% endif %}
   </div>
+
+  <p class="cu-more"><a href="/calendar">See the full pack calendar →</a></p>
 </section>
+
+<style>
+  .cu { max-width: 1100px; margin: 2.5rem auto; padding: 0 1rem; }
+  .cu-title { text-align: center; margin-bottom: 1.5rem; }
+  .cu-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.25rem; }
+  .cu-card { background: #fff; border: 1px solid #dde3ea; border-top: 5px solid #003f87;
+             border-radius: 10px; padding: 1.25rem; box-shadow: 0 2px 6px rgba(0,0,0,.06); }
+  .cu-card h3 { margin: 0 0 .25rem; color: #003f87; font-size: 1.2rem; }
+  .cu-sub { margin: 0 0 .75rem; color: #555; font-size: .95rem; }
+  .cu-card ul { padding-left: 1.1rem; margin: 0 0 .75rem; }
+  .cu-card li { margin-bottom: .4rem; }
+  .cu-loc { font-size: .9rem; color: #444; margin: 0; }
+  .cu-urgent { border-top-color: #ce1126; }
+  .cu-urgent h3 { color: #ce1126; }
+  .cu-btn { display: inline-block; background: #ce1126; color: #fff !important; padding: .5rem 1rem;
+            border-radius: 6px; text-decoration: none; font-weight: 600; }
+  .cu-btn:hover { opacity: .9; }
+  .cu-more { text-align: center; margin-top: 1.25rem; }
+</style>
+
+<script>
+  // Hide any card whose data-expires date has passed (keeps the section from going stale)
+  (function () {
+    var today = new Date(); today.setHours(0,0,0,0);
+    document.querySelectorAll('#coming-up [data-expires]').forEach(function (el) {
+      var parts = el.getAttribute('data-expires').split('-');
+      var end = new Date(parts[0], parts[1] - 1, parts[2]);
+      if (today > end) el.style.display = 'none';
+    });
+  })();
+</script>
+<!-- ===== END COMING UP ===== -->
+
 
 <!-- WHY CUB SCOUTING -->
 <section class="bg-slate-50">
